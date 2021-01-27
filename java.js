@@ -7,7 +7,7 @@ alert('welcome')
 if(pantstype == "skinny"){
     document.write('<h3>' +'welcome to skinny pants page' +'</h3>' );
 }else if(pantstype == "straight"){
-    alert( 'welcome to straight pants page');
+    document.write( '<h3>' +'welcome to straight pants page' + '</h3>');
 }else if (pantstype == "bermuda" ){
     document.write('<h3>'+'welcom to bermuda pants page'+'</h3>');
 }else{
