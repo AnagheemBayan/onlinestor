@@ -43,13 +43,10 @@ if(pantstype == "skinny"){
 
 }
 
-else {
-    document.write('page not found ')
-}
+
 
 }
  
-document.body.style.background = 'gray';
 
 
 
