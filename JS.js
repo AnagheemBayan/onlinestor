@@ -17,11 +17,10 @@ if(type == "skinny"){
 }else if(type == "straight"){
     message = ' straight pants collection';
 }
-
-else (type != "straight" && type != "skinny")
-{
-    message = 'collection not available'
+else {
+    message = 'collection not avilable'
 }
+
 
 document.write('<h2>' + message + '</h2>');
 }
