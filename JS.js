@@ -1,12 +1,35 @@
-var pantstype = prompt ('welcome to pants page , what you want to shope , skinny or straight pants ') ;
+ 
+ 
+ var pantstype = prompt ('welcome to pants page , what you want to shope , skinny or straight pants ') ;
+ 
+console.log(pantstype)
 
+
+if(pantstype == "skinny"){
+
+    document.write('<h3>' +'welcome to skinny pants page' +'</h3>');
+ 
+    
+  
+     
+ 
+ }else if(pantstype == "straight"){
+ 
+     document.write( '<h3>' +'welcome to straight pants page' + '</h3>');
+ 
+     
+ 
+ }
+ 
 
  while (pantstype !== 'skinny' && pantstype !== 'straight' );{
 
-    pantstype =  prompt('please write what you want correct  ') ;
-
-
+ pantinput = prompt ('type what you need correct')
  }
+
+ 
+
+
  
  var pantinput = prompt ('how many pants collection you want to see')  ;
 
@@ -16,7 +39,7 @@ for (var i = 0 ; i <pantinput ; i ++) {
 
 
 if(pantstype == "skinny"){
-    document.write('<h3>' +'welcome to skinny pants page' +'</h3>');
+   document.write('<h3>' +'welcome to skinny pants page' +'</h3>');
 
     img =  '<img src= "https://n.nordstrommedia.com/id/sr3/31be938f-aba9-406c-ad5f-b5b2bb562c5f.jpeg">';
 
@@ -34,12 +57,16 @@ if(pantstype == "skinny"){
 
 }
 
+else {
+    document.write('page not found ')
+}
 
 
 //document.body.style.background= 'gray';
 }
 
 document.body.style.background= 'gray';
+
 
 
 
