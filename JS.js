@@ -5,30 +5,16 @@
 console.log(pantstype)
 
 
-if(pantstype == "skinny"){
 
-    document.write('<h3>' +'welcome to skinny pants page' +'</h3>');
  
-    
-  
-     
- 
- }else if(pantstype == "straight"){
- 
-     document.write( '<h3>' +'welcome to straight pants page' + '</h3>');
- 
-     
- 
+
+ while (pantstype !='skinny' && pantstype != 'straight' )
+ {
+
+ pantstype = prompt ('type what you need correct');
+
+ console.log(pantstype)
  }
- 
-
- while (pantstype !== 'skinny' && pantstype !== 'straight' );{
-
- pantinput = prompt ('type what you need correct')
- }
-
- 
-
 
  
  var pantinput = prompt ('how many pants collection you want to see')  ;
@@ -61,11 +47,25 @@ else {
     document.write('page not found ')
 }
 
-
-//document.body.style.background= 'gray';
 }
+ 
+document.body.style.background = 'gray';
 
-document.body.style.background= 'gray';
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
 
 
 
