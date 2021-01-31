@@ -4,10 +4,32 @@
  
 console.log(pantstype)
 
+function getType()
+{
+    var type = prompt('what is the type');
+console.log(type)
+
+var message= '';
+console.log(message);
+if(type == "skinny"){ 
+    message = 'skinny pants collection';
+
+}else if(type == "straight"){
+    message = ' straight pants collection';
+}
+
+else (type != "straight" && type != "skinny")
+{
+    message = 'collection not available'
+}
+
+document.write('<h2>' + message + '</h2>');
+}
 
 
  
-
+function correctType ()
+{
  while (pantstype !='skinny' && pantstype != 'straight' )
  {
 
@@ -43,9 +65,14 @@ if(pantstype == "skinny"){
 
 }
 
-
+}
 
 }
+
+getType();
+correctType();
+
+
  
 
 
